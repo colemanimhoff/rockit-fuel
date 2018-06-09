@@ -1,0 +1,14 @@
+a.brand-logo {
+    padding: 0vw 4vw;
+}
+
+div.center-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    height: 50vh;
+    width: 75vw;
+}
