@@ -1,14 +1,29 @@
 a.brand-logo {
-    padding: 0vw 4vw;
+    padding: 0vh 4vw;
 }
 
-div.center-content {
-    margin: 0 auto;
+main {
+    width: 100vw;
+}
+
+div.hero {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: blueviolet;
     height: 50vh;
-    width: 75vw;
+    width: 100vw;
+}
+
+.mission-container {
+    width: 100%;
+}
+
+.what, .who, .why {
+    margin: 0.5%;
+    background: red;
+    height: 400px;
+    width: 400px;
+    border-radius: 1%;
 }
