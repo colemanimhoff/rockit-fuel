@@ -61,6 +61,10 @@ div.hero {
     width: 100%;
 }
 
+.blue-grey .card-content {
+    background: #38c45d;
+}
+
 footer.page-footer {
     padding-top: 0;
     background: white;

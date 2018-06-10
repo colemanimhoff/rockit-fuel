@@ -6,7 +6,3 @@ main {
     position: relative;
     z-index: -1; 
 }
-
-.blue-grey .card-content {
-    background: #38c45d;
-}
