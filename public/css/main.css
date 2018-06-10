@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #FCFCFA;
 }
 
 main {
@@ -18,13 +19,29 @@ h1, h2, h3 {
 }
 
 .nav-wrapper {
-    background: #c9c9c9;
+    background: #FFFFFA;
 }
 
-a.brand-logo {
+.nav-wrapper li a {
+    color: #1F1F1E;
+}
+
+.header-logo {
+    height: 100%;
+    width: auto;
     padding: 0vh 4vw;
 }
 
+
+@media screen and (max-width: 768px) {
+    .header-logo {
+        padding: 0vh 0vw;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%; */
+    }
+}
 main {
     width: 100vw;
 }
@@ -46,4 +63,10 @@ div.hero {
 
 footer.page-footer {
     padding-top: 0;
+    background: white;
 }
+
+.container {
+    color: #1F1F1E;
+}
+

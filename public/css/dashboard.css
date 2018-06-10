@@ -2,11 +2,6 @@ main {
     margin-top: 5vh;
 }
 
-.header-logo {
-    height: 100%;
-    width: auto;
-}
-
 .best-practices {
     position: relative;
     z-index: -1; 
