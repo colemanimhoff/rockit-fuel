@@ -90,13 +90,34 @@ main {
     z-index: -1;
 }
 
+.card-title {
+    font-family: 'Fredoka One', cursive;
+}
+
+.card-break {
+    color: white;
+}
+
+.card-text {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card .card-action {
+    background-color: #4CAD65;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #FCFCFA;
+}
+
 .blue-grey .card-content {
     background: #38c45d;
 }
 
 footer.page-footer {
     padding-top: 0;
-    background: white;
+    background: #FCFCFA;
 }
 
 .container {
