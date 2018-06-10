@@ -23,6 +23,13 @@ h1, h2, h3 {
     font-family: 'Fredoka One', cursive;
 }
 
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 35px;
+}
+
 .nav-wrapper {
     background: #FFFFFA;
 }
