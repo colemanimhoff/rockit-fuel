@@ -13,6 +13,14 @@ nav {
     width: 100%;
 }
 
+h1, h2, h3 {
+    font-family: 'Fredoka One', cursive;
+}
+
+.nav-wrapper {
+    background: #c9c9c9;
+}
+
 a.brand-logo {
     padding: 0vh 4vw;
 }

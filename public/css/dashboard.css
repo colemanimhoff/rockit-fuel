@@ -1,0 +1,17 @@
+main {
+    margin-top: 5vh;
+}
+
+.header-logo {
+    height: 100%;
+    width: auto;
+}
+
+.best-practices {
+    position: relative;
+    z-index: -1; 
+}
+
+.blue-grey .card-content {
+    background: #38c45d;
+}
