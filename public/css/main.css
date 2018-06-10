@@ -116,6 +116,10 @@ main {
     background-color: #4CAD65;
 }
 
+.floater {
+    float: right;
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
     color: #FCFCFA;
 }
@@ -133,3 +137,7 @@ footer.page-footer {
     color: #1F1F1E;
 }
 
+.temper {
+    font-family: 'Fredoka One';
+    font-size: 20px;
+}
