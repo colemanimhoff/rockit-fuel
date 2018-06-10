@@ -2,7 +2,16 @@ main {
     margin-top: 5vh;
 }
 
+h2 {
+    padding: 1vw;
+}
+
 .best-practices {
     position: relative;
     z-index: -1; 
+}
+
+hr {
+    width: 98vw;
+    box-shadow: rgb(92, 89, 89) .05vw .05vw .05vw;
 }

@@ -12,49 +12,65 @@
 
 <body>
     <header>
-            <nav>
-                <div class="nav-wrapper">
-                    <img class="header-logo" src="./img/RockitLogo.svg"></img>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li>
-                            <a href="./">Home</a>
-                        </li>
-                        <li>
-                            <a href="dashboard.html">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                            <a href="order.html">Order</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <nav>
+            <div class="nav-wrapper">
+                <img class="header-logo" src="./img/RockitLogo.svg"></img>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="./">Home</a>
+                    </li>
+                    <li>
+                        <a class='dropdown-trigger' href='#' data-target='dropdown1'>Dashboard</a>
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li>
+                                <a href="tracker.html">Tracker</a>
+                            </li>
+                            <li>
+                                <a href="cirriculum.html">Cirriculum</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="order.html">Order</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-            <ul class="sidenav" id="mobile-demo">
-                <li>
-                    <a href="./">Home</a>
-                </li>
-                <li>
-                    <a href="dashboard.html">Dashboard</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="order.html">Order</a>
-                </li>
-            </ul>
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="./">Home</a>
+            </li>
+            <li>
+                <a class='dropdown-trigger' href='#' data-target='dropdown2'>Dashboard</a>
+                <ul id='dropdown2' class='dropdown-content'>
+                    <li>
+                        <a href="#!">Tracker</a>
+                    </li>
+                    <li>
+                        <a href="#!">Cirriculum</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="order.html">Order</a>
+            </li>
+        </ul>
     </header>
 
     <main>
@@ -69,9 +85,13 @@
                     <div class="card blue-grey darken-1">
                         <div class="card-content white-text">
                             <span class="card-title">What</span>
-                            <p>Rockit is an educational hydroponic nonprofit that helps students interact with the foods they grow in the classroom in an affordable way. Through 'Mission Control', the rockets real-time data collection network of critical growth factors is linked to every other unit around the world, helping educators develop and contribute to a database of best practices grounded in the results of every other classroom carrying out hydroponic experiments [...]</p>
+                            <p>Rockit is an educational hydroponic nonprofit that helps students interact with the foods they
+                                grow in the classroom in an affordable way. Through 'Mission Control', the rockets real-time
+                                data collection network of critical growth factors is linked to every other unit around the
+                                world, helping educators develop and contribute to a database of best practices grounded
+                                in the results of every other classroom carrying out hydroponic experiments [...]</p>
                         </div>
-                         <div class="card-action">
+                        <div class="card-action">
                             <a href="#">Read more.</a>
                         </div>
                     </div>
