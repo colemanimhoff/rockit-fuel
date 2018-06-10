@@ -90,6 +90,8 @@ main {
 }
 .mission-container {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: -30px;
 }
 
 .mission-cards {
