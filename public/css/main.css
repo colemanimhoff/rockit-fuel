@@ -137,6 +137,14 @@ footer.page-footer {
     color: #1F1F1E;
 }
 
+.buttons {
+    background: #4CAD65;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background: rgb(54, 156, 80);
+}
+
 .temper {
     font-family: 'Fredoka One';
     font-size: 20px;
